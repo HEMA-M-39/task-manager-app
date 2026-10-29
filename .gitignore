@@ -2,3 +2,11 @@ node_modules
 dist
 *.db
 .env
+node_modules/
+dist/
+build/
+.env.*
+!.env.example
+.vercel/
+__pycache__/
+.venv/
