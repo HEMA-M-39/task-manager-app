@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-monorepo",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm run build -w backend && npm run build -w frontend",
+    "test": "npm test -w backend"
+  }
+}
